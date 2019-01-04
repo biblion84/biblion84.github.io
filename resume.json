@@ -1,0 +1,186 @@
+{
+  "basics": {
+    "name": "Lucas Dominguez",
+    "label": "Programmer",
+    "picture": "",
+    "email": "lucas.dominguez.pro@gmail.com",
+    "phone": "+33 6 41 87 04 62",
+    "website": "https://www.linkedin.com/in/lucas-dominguez/",
+    "summary": "Passion driven developer",
+    "location": {
+      "address": "620 St martin's road",
+      "postalCode": "Vaucluse 84120",
+      "city": "Pertuis",
+      "countryCode": "FR",
+      "region": "PACA"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "lucas-dominguez",
+        "url": "https://www.linkedin.com/in/lucas-dominguez/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Atos",
+      "position": "Developer/Microsoft expert",
+      "website": "www.atos.net",
+      "startDate": "2018-09-18",
+      "summary": "Atos is a WorldWide leading consulting company.",
+      "highlights": [
+        "Wrote powershell scripts to automate the french national lottery Azure management",
+        "Worked on C#/Angular project for Vinci"
+      ]
+    },
+    {
+      "company": "Sopra Steria",
+      "position": "Intern then Developer",
+      "website": "www.soprasteria.com",
+      "startDate": "2017-09-18",
+      "endDate": "2018-09-18",
+      "summary": "Sopra Steria is a European leading consulting company.",
+      "highlights": [
+        "Built export generator from back-office data in SSRS, C#",
+        "Developed Web Apps in C# and JQuery",
+        "Optimized current running WebApps by implementing simple concurrency principles",
+        "Developed a chat bot that successfully guided first time user"
+      ]
+    },
+    {
+      "company": "Mistale Studio",
+      "position": "Video-Game developer",
+      "startDate": "2017-09-10",
+      "summary": "Mistale Studio is an enterprise owned by two of fellow students",
+      "highlights": [
+        "Currently developing the studio's second game",
+        "Helped to develop the first game of the Studio 'Line Tower War'"
+      ]
+    },
+    {
+      "company": "Atelier des remparts",
+      "position": "Intern",
+      "website": "www.atelierdesremparts.com",
+      "startDate": "2016-06-10",
+      "endDate": "2016-08-10",
+      "summary": "Helped in the deployment of an ERP"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ynov digital school",
+      "area": "Android and IoT experts",
+      "studyType": "Master",
+      "startDate": "2018-09-01",
+      "endDate": "2020-06-01",
+      "gpa": "4",
+      "courses": [
+        "Machine Learning",
+        "IOT"
+      ]
+    },
+    {
+      "institution": "Ynov digital school",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2015-09-01",
+      "endDate": "2018-06-01",
+      "gpa": "4.3",
+      "courses": [
+        "C/C++",
+        "JAVA",
+        "Android",
+        "Web full stack"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Valedictorian",
+      "date": "2017-09-01",
+      "awarder": "Ynov digital school",
+      "summary": "I finished my second year with the highest grade among the 400 school's students"
+    },
+    {
+      "title": "Gold Medal 'La nuit de l'info'",
+      "date": "2016-09-01",
+      "awarder": "Ynov digital school",
+      "summary": "Build an Accessible Android application in a team of 4 developers. 'La nuit de l'info' is a french national competition"
+    },
+    {
+      "title": "Silver Medal Battle Code Sopra Steria x2",
+      "date": "2018-05-01",
+      "awarder": "Sopra Steria",
+      "summary": "The battle code is a regional competition organized by Sopra Steria, during 1 hour a team is tasked with programming challenges"
+    },
+    {
+      "title": "Second Place Worldskill PACA",
+      "date": "2016-08-01",
+      "awarder": "WorldSkill",
+      "summary": "Competition based on infrastructure building"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Advanced",
+      "keywords": [
+        "C#",
+        "NodeJS",
+        "Angular",
+        "Ruby On Rails"
+      ]
+    },
+    {
+      "name": "Game Development",
+      "level": "Beginner",
+      "keywords": [
+        "Unity"
+      ]
+    },
+    {
+      "name": "App Development",
+      "level": "Beginner",
+      "keywords": [
+        "Android",
+        "Java"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "name": "Embedded development",
+      "level": "Beginner",
+      "keywords": [
+        "Arduino",
+        "C++"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sport",
+      "keywords": [
+        "Weightlifting",
+        "Rock Climbing"
+      ]
+    }
+  ]
+}

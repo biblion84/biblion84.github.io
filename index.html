@@ -1,0 +1,463 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+
+	<title>Lucas Dominguez</title>
+
+	<style>
+	body {
+  background: #EEEEEE;
+  font: 12px "Times New Roman", Times, sans-serif;
+  line-height: 1.4;
+  margin: 40px 0;
+}
+em {
+  color: #999;
+}
+p {
+  line-height: 1.4;
+}
+ul {
+  margin-bottom: 0;
+}
+li {
+  margin-bottom: 2px;
+}
+a {
+  text-decoration: none;
+}
+
+#resume {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 80px 100px;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px #aaa;
+  -webkit-box-shadow: 2px 2px 4px #aaa;
+}
+
+.coursesList {
+  width: 28%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.largeFont {
+  font-size: 20px;
+}
+
+.smallFont {
+  font-size: 12px;
+}
+
+.sectionBlock {
+  display: flex;
+  width: 100%;
+}
+
+.sectionName {
+  width: 18%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent {
+  width: 80%;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.sectionContent ul {
+  padding-left: 20px;
+  margin-top: 6px;
+  list-style-type: circle;
+}
+
+.sectionContent .title {
+  font-weight: bold;
+}
+
+.sectionContent .date {
+  float: right;
+}
+
+.sectionContent .separator {
+  height: 14px;
+}
+
+.sectionLine {
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #CFCFCF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.divider {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.summary {
+  margin-top: 6px;
+}
+
+.skillBlock {
+  margin-bottom: 4px;
+}
+
+.jobBlock {
+  page-break-inside: avoid;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 40em) {
+  body {
+    margin: 0;
+    font-size: 14px;
+  }
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0.5em 1em;
+    border: none;
+  }
+  .sectionContent {
+    width: 100%;
+  }
+  .sectionContent .date {
+    padding-right: 2em;
+  }
+  .sectionName {
+    width: auto;
+  }
+  .largeFont {
+    font-size: 20px;
+  }
+  .smallFont {
+    font-size: 14px;
+  }
+}
+
+@media print {
+  #resume {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 0px 0px;
+    border: 0px;
+    background: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id='resume'>
+  <div id='nameBlock' class='largeFont'>
+    <span class='name'>
+      Lucas Dominguez,
+    </span>
+    <span class='label'>Programmer</span>
+  </div>
+  <div id='basicsBlock' class='smallFont'>
+    <div class='contactBlock'>
+      <span class='email'>lucas.dominguez.pro@gmail.com</span>
+      <span class='divider'>|</span>
+      <span class='phone'>+33 6 41 87 04 62</span>
+        <span class='divider'>|</span>
+        <span class='address'>
+          Pertuis, PACA, FR
+        </span>
+    </div>
+      <div id='profilesBlock'>
+            <span class='url'>
+              <a href='https://www.linkedin.com/in/lucas-dominguez/'>https://www.linkedin.com/in/lucas-dominguez/</a>
+            </span>
+            
+      </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='summaryBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SUMMARY</span>
+    </div>
+    <div class='sectionContent'>
+      <span>Passion driven developer</span>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+  <div id='workBlock' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EXPERIENCE</span>
+    </div>
+    <div class='sectionContent'>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Atos, Developer/Microsoft expert
+	        </span>
+	        <span class='date'>
+	          2018-09-18 &mdash; Present
+	        </span>
+	      </div>
+	      <div><a href='www.atos.net'>www.atos.net</a></div>
+	      <ul class='highlights'>
+	        <li>Atos is a WorldWide leading consulting company.</li>
+	        <li>Wrote powershell scripts to automate the french national lottery Azure management</li>
+	        <li>Worked on C#/Angular project for Vinci</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Sopra Steria, Intern then Developer
+	        </span>
+	        <span class='date'>
+	          2017-09-18 &mdash; 2018-09-18
+	        </span>
+	      </div>
+	      <div><a href='www.soprasteria.com'>www.soprasteria.com</a></div>
+	      <ul class='highlights'>
+	        <li>Sopra Steria is a European leading consulting company.</li>
+	        <li>Built export generator from back-office data in SSRS, C#</li>
+	        <li>Developed Web Apps in C# and JQuery</li>
+	        <li>Optimized current running WebApps by implementing simple concurrency principles</li>
+	        <li>Developed a chat bot that successfully guided first time user</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Mistale Studio, Video-Game developer
+	        </span>
+	        <span class='date'>
+	          2017-09-10 &mdash; Present
+	        </span>
+	      </div>
+	      <div><a href=''></a></div>
+	      <ul class='highlights'>
+	        <li>Mistale Studio is an enterprise owned by two of fellow students</li>
+	        <li>Currently developing the studio&#x27;s second game</li>
+	        <li>Helped to develop the first game of the Studio &#x27;Line Tower War&#x27;</li>
+	      </ul>
+	      <div class='separator'></div>
+			</div>
+			<div class="jobBlock">
+	      <div class='blockHeader'>
+	        <span class='title'>
+	          Atelier des remparts, Intern
+	        </span>
+	        <span class='date'>
+	          2016-06-10 &mdash; 2016-08-10
+	        </span>
+	      </div>
+	      <div><a href='www.atelierdesremparts.com'>www.atelierdesremparts.com</a></div>
+	      <ul class='highlights'>
+	        <li>Helped in the deployment of an ERP</li>
+	      </ul>
+	      
+			</div>
+    </div>
+  </div>
+  <div class='sectionLine'></div>
+
+
+	<div id='awards' class="sectionBlock">
+    <div class='sectionName'>
+      <span>AWARDS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='blockHeader'>
+        <span class='title'>
+          Valedictorian, Ynov digital school
+        </span>
+        <span class='date'>
+          <span class='date'>2017-09-01</span>
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>I finished my second year with the highest grade among the 400 school&#x27;s students</li>
+      </ul>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          Gold Medal &#x27;La nuit de l&#x27;info&#x27;, Ynov digital school
+        </span>
+        <span class='date'>
+          <span class='date'>2016-09-01</span>
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>Build an Accessible Android application in a team of 4 developers. &#x27;La nuit de l&#x27;info&#x27; is a french national competition</li>
+      </ul>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          Silver Medal Battle Code Sopra Steria x2, Sopra Steria
+        </span>
+        <span class='date'>
+          <span class='date'>2018-05-01</span>
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>The battle code is a regional competition organized by Sopra Steria, during 1 hour a team is tasked with programming challenges</li>
+      </ul>
+      <div class='separator'></div>
+      <div class='blockHeader'>
+        <span class='title'>
+          Second Place Worldskill PACA, WorldSkill
+        </span>
+        <span class='date'>
+          <span class='date'>2016-08-01</span>
+        </span>
+      </div>
+      <ul class='highlights'>
+        <li>Competition based on infrastructure building</li>
+      </ul>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+
+	<div id='education' class="sectionBlock">
+    <div class='sectionName'>
+      <span>EDUCATION</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='educationBlock'>
+        <span class='title'>
+          Ynov digital school
+        </span>
+        <span class='date'>
+          2018-09-01 &mdash; 2020-06-01
+        </span>
+        <div class=''>
+          Master  - Android and IoT experts, GPA: 4
+        </div>
+        <div id='coursesBlock'>
+          <ul class='coursesList'>
+            <li class='course'>Machine Learning</li>
+          </ul>
+          <ul class='coursesList'>
+            <li class='course'>IOT</li>
+          </ul>
+          <ul class='coursesList'>
+          </ul>
+        </div>
+      </div>
+      <div class='separator'></div>
+      <div class='educationBlock'>
+        <span class='title'>
+          Ynov digital school
+        </span>
+        <span class='date'>
+          2015-09-01 &mdash; 2018-06-01
+        </span>
+        <div class=''>
+          Bachelor  - Computer Science, GPA: 4.3
+        </div>
+        <div id='coursesBlock'>
+          <ul class='coursesList'>
+            <li class='course'>C/C++</li>
+            <li class='course'>Web full stack</li>
+          </ul>
+          <ul class='coursesList'>
+            <li class='course'>JAVA</li>
+          </ul>
+          <ul class='coursesList'>
+            <li class='course'>Android</li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='skills' class="sectionBlock">
+    <div class='sectionName'>
+      <span>SKILLS</span>
+    </div>
+    <div class='sectionContent'>
+      <div class='skillBlock'>
+        <span class='title'>Web Development <em>(Advanced)</em>:</span>
+          <span>C#</span>, 
+          <span>NodeJS</span>, 
+          <span>Angular</span>, 
+          <span>Ruby On Rails</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Game Development <em>(Beginner)</em>:</span>
+          <span>Unity</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>App Development <em>(Beginner)</em>:</span>
+          <span>Android</span>, 
+          <span>Java</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Machine Learning <em>(Advanced)</em>:</span>
+          <span>Python</span>, 
+          <span>Scikit-learn</span>
+      </div>
+      <div class='skillBlock'>
+        <span class='title'>Embedded development <em>(Beginner)</em>:</span>
+          <span>Arduino</span>, 
+          <span>C++</span>
+      </div>
+    </div>
+	</div>
+  <div class='sectionLine'></div>
+
+	<div id='languages' class="sectionBlock">
+    <div class='sectionName'>
+      <span>LANGUAGES</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='language'>French</span>
+      <span class='fluency'><em>(Native speaker)</em></span>
+      <span>,</span>
+      <span class='language'>English</span>
+      <span class='fluency'><em>(Fluent)</em></span>
+      
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	<div id='interests' class="sectionBlock">
+    <div class='sectionName'>
+      <span>INTERESTS</span>
+    </div>
+    <div class='sectionContent'>
+      <span class='name'>Sport</span><!--
+      --><span class='keywords'> <em>[
+        Weightlifting<!--
+        -->, 
+        Rock Climbing<!--
+        -->
+      ]</em></span><!--
+      -->
+    </div>
+    <div class='sectionLine'></div>
+	</div>
+
+	</body>
+</html>

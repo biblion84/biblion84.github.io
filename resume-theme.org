@@ -1,0 +1,7 @@
+Here are my prefered JSON-Resume themes
+
+- light-classy-responsive-m2
+- Onepage
+- Srt / Srt-epost
+- paper-pt-br/Papier
+- Kendalles/ or a derivate
